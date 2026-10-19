@@ -1,0 +1,14 @@
+{
+  "source": ["aws.guardduty"],
+  "detail-type": ["GuardDuty Finding"],
+  "detail": {
+    "severity": [
+      {
+        "numeric": [">=", 7]
+      }
+    ],
+    "type": [
+      "Backdoor:Runtime/C&CActivity.B!DNS"
+    ]
+  }
+}
